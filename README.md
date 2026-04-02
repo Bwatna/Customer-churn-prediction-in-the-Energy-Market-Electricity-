@@ -10,6 +10,9 @@ Customer churn is a major challenge in the electricity distribution market, espe
 
 This work is relevant to Customer Experience (CX) teams because churn prediction supports decision-making in customer retention, service improvement, and revenue optimization.
 
+#### Data Used 
+The Data used was generated from a LLM real static data.
+
 #### This project followed a structured data science workflow:
 
 1. Data Collection and Loading
