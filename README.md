@@ -1,6 +1,10 @@
 ## AEDC Customer Churn Prediction & Customer Experience Analytics (Abuja, Nigeria)
 ### Project Overview
-Customer churn is a major challenge in the electricity distribution market, especially in rapidly growing urban areas like Abuja, Nigeria. Abuja Electricity Distribution Company (AEDC) serves customers across multiple districts such as Wuse, Gwarinpa, Lugbe, Apo, Karu, Kubwa, Dutse, and Gwagwalada. In such a competitive and service-sensitive market, customers may disengage due to poor service delivery, frequent outages, billing issues, unresolved complaints, or dissatisfaction with customer support.
+The AEDC Customer Churn Prediction Project is a data-driven initiative designed to help the Abuja Electricity Distribution Company (AEDC) proactively identify customers who are likely to discontinue engagement with its services. In the context of AEDC, churn may occur when customers reduce electricity purchases, delay bill payments, accumulate arrears, or shift to alternative energy sources due to dissatisfaction with service delivery.
+
+This project leverages customer and operational data such as energy consumption patterns, tariff class, payment history, outstanding arrears, service charges, complaint frequency, outage duration, resolution time, and customer satisfaction scores to build predictive machine learning models. The dataset was preprocessed and balanced using techniques such as SMOTE/SMOTETomek to address class imbalance in churn labels.
+
+Two key machine learning models—Logistic Regression and Random Forest—were trained, evaluated, and optimized using cross-validation and hyperparameter tuning to improve prediction accuracy and reliability. The final model provides churn probability scores and customer risk segmentation (low, medium, high risk), enabling AEDC to implement targeted retention strategies, improve customer satisfaction, reduce revenue losses, and strengthen operational planning.
 #### Project Objectives
 •	build a predictive model that identifies customers at risk of leaving,
 
@@ -30,4 +34,5 @@ This project was developed using:
 4. Feature Engineering     
 5. Model Training
 6. Model Evaluation
-7. Model Performance 
+7. Model Performance
+8. Business recommendations and churn retention strategy development
